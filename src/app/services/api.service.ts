@@ -6,7 +6,7 @@ import { BehaviorSubject } from 'rxjs';
   providedIn: 'root'
 })
 export class ApiService {
-  server_url = 'http://localhost:3000'
+  server_url = 'https://eazykart-backend-angular.onrender.com/'
 
 
   //behaviour subject creation
