@@ -12,7 +12,7 @@
               
             </div>
             <div class="mb-4">
-             <input type="text" class="form-control" placeholder="Enter Password" formControlName="password" name="upswd">
+             <input type="password" class="form-control" placeholder="Enter Password" formControlName="password" name="upswd">
              <span class="text-warning" *ngIf="loginForm.get('password')?.errors && loginForm.get('password')?.touched">invalid password</span>
              
             </div>
